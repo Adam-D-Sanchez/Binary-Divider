@@ -1,25 +1,3 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 11/20/2016 04:40:04 PM
-// Design Name: 
-// Module Name: datapath
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
 module datapath(input[3:0] divisor, dividend,
 input clk,rst,x_ld,x_sl,x_sr,x_en,x_lb,x_rb,y_ld,bm_sel1,r_ld,r_sl,r_sr,r_en,r_lb,c_und,c_ld,c_en, smq_sel2, smr_sel2,
 output[2:0] cnt_out,

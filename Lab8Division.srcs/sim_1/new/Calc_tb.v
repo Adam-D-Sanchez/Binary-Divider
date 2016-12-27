@@ -1,24 +1,3 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 11/25/2016 09:15:04 PM
-// Design Name: 
-// Module Name: Calc_tb
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module Calc_tb(
 
@@ -30,7 +9,7 @@ wire tb_done, tb_error;
 wire [3:0] tb_QTNT, tb_RMDR;
 integer M,N; //M will be the dividend, N will be the divisor.
 
-DivCalc DUT(.go(tb_go),
+	DivCalc DUT(.go(tb_go), //instantiation of unit under test.
 .clk(tb_clk),
 .rst(tb_rst),
 .DVND(tb_DVND),
@@ -40,7 +19,7 @@ DivCalc DUT(.go(tb_go),
 .QTNT(tb_QTNT),
 .RMDR(tb_RMDR));
 
-task CHANGECLOCK;
+task CHANGECLOCK; //task done to make code more readable. 
 begin	
 #5;
 tb_clk=1;

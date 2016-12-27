@@ -1,27 +1,3 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 11/28/2016 01:55:54 PM
-// Design Name: 
-// Module Name: clk_gen
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
-
-
 module clk_gen(clk100MHz, rst, clk_4sec, clk_5KHz);
 input clk100MHz, rst;
 output clk_4sec, clk_5KHz; 

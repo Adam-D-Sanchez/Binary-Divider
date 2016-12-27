@@ -1,25 +1,3 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 11/20/2016 04:38:48 PM
-// Design Name: 
-// Module Name: smallshiftdreg
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
 module smallshiftdreg(input clk, rst, ld, sl, sr, en, lb, rb,
 	input[3:0] d_in,
 	output reg [3:0] q_out

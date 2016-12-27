@@ -1,14 +1,13 @@
 
-`timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: San Jose State University
+// Engineer: Adam Sanchez and Jonathan Rojas
 // 
 // Create Date: 11/20/2016 08:26:30 PM
 // Design Name: 
 // Module Name: DivCalc
-// Project Name: 
-// Target Devices: 
+// Project Name: Binary Divider
+// Target Devices: Digilent Nexys 4, using the Xilinx Artix-7 FPGA. 
 // Tool Versions: 
 // Description: 
 // 
